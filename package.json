@@ -1,0 +1,49 @@
+{
+  "name": "@trbl/utils",
+  "version": "1.0.0",
+  "main": "dist/build.bundle.js",
+  "repository": "git@github.com:trouble/utils.git",
+  "description": "Unilateral Technical Intelligence and Logistic System",
+  "author": "dev@trbl.design",
+  "license": "MIT",
+  "keywords": [
+    "utilities",
+    "helpers"
+  ],
+  "scripts": {
+    "build": "yarn lint && yarn test && webpack --config webpack.production.config.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@trbl/eslint-config": "^1.2.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jest-dom": "^2.0.0",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "lint-staged": "^10.0.7",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "lint-staged": {
+    "*.js": "yarn lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3"
+  }
+}
