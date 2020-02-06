@@ -27,10 +27,10 @@ All available functions along with their arguments can be found via the referenc
 
   - [getSVGPathLength](./src/getSVGPathLength/README.md)
   - [mockAnimationFrame](./src/mockAnimationFrame/README.md)
-  - [mockBodyScrollEvents](./src/mockBodyScrollEvents/README.md)
   - [mockPropertySetters](./src/mockPropertySetters/README.md)
   - [mockWindowMouseEvents](./src/mockWindowMouseEvents/README.md)
   - [mockWindowResizeEvents](./src/mockWindowResizeEvents/README.md)
+  - [mockWindowScrollEvents](./src/mockWindowScrollEvents/README.md)
   - [trimStringWithEllipsis](./src/trimStringWithEllipsis/README.md)
 
 ## Contribution

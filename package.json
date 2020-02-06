@@ -1,6 +1,6 @@
 {
   "name": "@trbl/utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/build.bundle.js",
   "repository": "git@github.com:trouble/utils.git",
   "description": "Unilateral Technical Intelligence and Logistic System",
@@ -16,6 +16,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@trbl/eslint-config": "^1.2.4",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
