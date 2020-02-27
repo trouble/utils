@@ -1,6 +1,6 @@
 {
   "name": "@trbl/utils",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "dist/build.bundle.js",
   "repository": "git@github.com:trouble/utils.git",
   "description": "Unilateral Technical Intelligence and Logistic System",
