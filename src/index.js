@@ -1,4 +1,5 @@
 export { default as getSVGPathLength } from './getSVGPathLength';
+export { default as hexToRGBA } from './hexToRGBA';
 export { default as mockPropertySetters } from './mockPropertySetters';
 export { default as mockRequestAnimationFrame } from './mockRequestAnimationFrame';
 export { default as mockWindowMouseEvents } from './mockWindowMouseEvents';

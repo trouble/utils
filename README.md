@@ -26,6 +26,7 @@ $ yarn add @trbl/utils
 All available functions along with their arguments can be found via the references below:
 
   - [getSVGPathLength](./src/getSVGPathLength/README.md)
+  - [hexToRGBA](./src/hexToRGBA/README.md)
   - [mockPropertySetters](./src/mockPropertySetters/README.md)
   - [mockRequestAnimationFrame](./src/mockRequestAnimationFrame/README.md)
   - [mockWindowMouseEvents](./src/mockWindowMouseEvents/README.md)
