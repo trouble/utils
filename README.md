@@ -4,13 +4,15 @@
 
 # React Utils
 
-Unilateral Technical Intelligence and Logistic System
+## Highlights
 
 ## Quick Start
 
 ### Installation
 
 ```bash
+$ npm i @trbl/utils
+$ # or
 $ yarn add @trbl/utils
 ```
 
@@ -21,9 +23,7 @@ $ yarn add @trbl/utils
   someFunction();
 ```
 
-## Documentation
-
-All available functions along with their arguments can be found via the references below:
+## API
 
   - [getSVGPathLength](./src/getSVGPathLength/README.md)
   - [hexToRGBA](./src/hexToRGBA/README.md)
